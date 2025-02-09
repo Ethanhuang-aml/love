@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#start-page, #map-page {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#start-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdf6e3;
+}
+
+#start-page h1, #start-page h2, #start-page h3 {
+    margin: 10px 0;
+}
+
+#start-page h2 {
+    cursor: pointer;
+    color: #268bd2;
+}
+
+#start-page h2:hover {
+    text-decoration: underline;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+#photo-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#photo-display img {
+    max-width: 100%;
+    height: auto;
+}
