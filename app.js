@@ -24,10 +24,11 @@ document.getElementById('day-counter').addEventListener('click', function() {
 
     // 初始化地图
     const photos = {
-        'location1': 'images/location1.jpg',
-        'location2': 'images/location2.jpg',
-        'location3': 'images/location3.jpg'
+        'location1': 'images/beijing/photo1.jpg',
+        'location2': 'images/shanghai/photo1.jpg',
+        'location3': 'images/hongkong/photo1.jpg'
     };
+    
 
     const map = L.map('map').setView([39.9042, 116.4074], 8);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
